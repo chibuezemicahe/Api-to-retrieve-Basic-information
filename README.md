@@ -57,5 +57,3 @@ This is a simple Node.js-Express API that returns:
 - [Hire PHP Developers](https://hng.tech/hire/php-developers)
 - [Hire Java Developers](https://hng.tech/hire/java-developers)
 - [Hire Node.js Developers](https://hng.tech/hire/nodejs-developers)
-
-  git remote add origin https://github.com/chibuezemicahe/Api-to-retrieve-Basic-information.git
