@@ -2,7 +2,7 @@
 const express = require ('express');
 const app = express();
 const dotenv = require('dotenv')
-
+const PORT = process.env.PORT || 3000; 
 dotenv.config();
 
 //Here I Import cors
@@ -20,7 +20,5 @@ app.get('/', (req,res)=>{
       });
 })
 
-if (process.env.NODE_ENV === 'development') {
-    const PORT = process.env.PORT || 3000;
-    app.listen(PORT, () => console.log(`Local server running on http://localhost:${PORT}`));
-  }
+
+app.listen(PORT, () => console.log(`Server running on port ${PORT}`));
